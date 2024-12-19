@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>超级歌谱</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1>超级歌谱</h1>
+        <div class="search-box">
+            <input type="text" placeholder="搜索歌曲名称、歌手...">
+            <button type="submit">搜索</button>
+        </div>
+    </div>
+
+    <nav class="category-nav">
+        <ul>
+            <li><a href="#latest">最新歌曲</a></li>
+            <li><a href="#popular">流行歌曲</a></li>
+            <li><a href="#classic">经典老歌</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="songs" class="song-section">
+            <div class="song-grid"></div>
+        </section>
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
